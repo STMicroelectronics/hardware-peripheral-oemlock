@@ -22,7 +22,6 @@ cc_binary {
     ],
     shared_libs: [
         "libhidlbase",
-        "libhidltransport",
         "liblog",
         "libutils",
         "android.hardware.oemlock@1.0",
