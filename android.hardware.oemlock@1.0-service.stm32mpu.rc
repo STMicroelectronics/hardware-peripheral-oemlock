@@ -1,0 +1,4 @@
+service vendor.oemlock-stm32mpu /vendor/bin/hw/android.hardware.oemlock@1.0-service.stm32mpu
+    class hal
+    user system
+    group system

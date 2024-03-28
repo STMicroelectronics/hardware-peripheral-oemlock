@@ -1,24 +1,18 @@
 # hardware-oemLock #
 
-This module contains the STMicroelectronics OemLock hardware service source code (stub version).
-It is part of the STMicroelectronics delivery for Android (see the [delivery][] for more information).
+This module contains the STMicroelectronics android.hardware.oemlock binary source code (stub version).
 
-[delivery]: https://wiki.st.com/stm32mpu/wiki/STM32MP15_distribution_for_Android_release_note_-_v2.0.0
+It is part of the STMicroelectronics delivery for Android.
 
 ## Description ##
 
-This module version is the updated version for STM32MP15 distribution for Android V2.0
+This module implements android.hardware.oemlock HIDL version 1.
 Please see the Android delivery release notes for more details.
-
-It is based on Module OemLock API version 1.0.
 
 ## Documentation ##
 
 * The [release notes][] provide information on the release.
-* The [distribution package][] provides detailed information on how to use this delivery.
-
-[release notes]: https://wiki.st.com/stm32mpu/wiki/STM32MP15_distribution_for_Android_release_note_-_v2.0.0
-[distribution package]: https://wiki.st.com/stm32mpu/wiki/STM32MP1_Distribution_Package_for_Android
+[release notes]: https://wiki.st.com/stm32mpu/wiki/STM32_MPU_OpenSTDroid_release_note_-_v5.1.0
 
 ## Dependencies ##
 
@@ -26,12 +20,12 @@ This module can't be used alone. It is part of the STMicroelectronics delivery f
 To be able to use it the device.mk must have the following packages:
 ```
 PRODUCT_PACKAGES += \
-    android.hardware.oemlock@<version>-service.stm32mp1
+    android.hardware.oemlock@<version>-service.stm32mpu
 ```
 
 ## Containing ##
 
-This directory contains the sources and associated Android makefile to generate the android.hardware.oemlock@<version>-service.stm32mp1 binary.
+This directory contains the sources and associated Android makefile to generate the oemlock binary.
 
 ## License ##
 
